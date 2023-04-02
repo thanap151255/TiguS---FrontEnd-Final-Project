@@ -25,7 +25,7 @@ exports.connect = () => {
                     email: 'Tanapong@gmail.com',
                     password: '4321'}
             ];
-
+ 
             const result = await coll.insertMany(docs);
             console.log('Documents were inserted');
             console.log(result.insertedIds);
